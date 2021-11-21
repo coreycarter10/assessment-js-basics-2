@@ -86,7 +86,7 @@ console.log(calcFinalPrice(20.00, 5.00, .06));
 /*
     Customer name = String
     Customer address = String
-    Customer phone number = number
+    Customer phone number = String
     Customer order type = List of strings
     Customer payment = List of strings
     Customer order = List of strings

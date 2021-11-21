@@ -87,10 +87,8 @@ const canWeDeliverTwo = zipCode => {
         if (zipCode === deliveryAreaZipCodes[i]) {
             return "You're in our delivery zone!";
         } 
-        else {
-            return "Sorry, we can't deliver to that address";
-        }
     }
+    return "Sorry, we can't deliver to that address";
 }
 
 
@@ -128,8 +126,7 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-const percOff = deals[0].title.replace('15% Off!', '10% Off!')
-// console.log(percOff);
+deals[0].title = deals[0].title.replace('15% Off!', '10% Off!')
 
 
 
@@ -146,5 +143,4 @@ const percOff = deals[0].title.replace('15% Off!', '10% Off!')
     to be displaying wrong on the live site.
 */
 
-const newDesc = deals[1].desc.trim().replace('March', 'April');
-// console.log(newDesc);
+deals[1].disc = deals[1].desc.trim().replace('March', 'April');
