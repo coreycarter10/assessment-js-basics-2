@@ -138,7 +138,7 @@ console.log(manager);
     'Coach' or whatever name you'd like.
 */
 
-manager.addEmployee('Coach'); 
+manager.addEmployee(' Coach'); 
 
 /*
     Call the `getEmployees` method on the

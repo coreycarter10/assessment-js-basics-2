@@ -204,6 +204,7 @@ const foodArr = [
     Return the filtered array from the entire function
 */
 
+
 const filterByProperty = (property, number, type) => {
     const filteredArray = foodArr.filter((pizza) => {
         if (type === 'above') {
@@ -212,10 +213,8 @@ const filterByProperty = (property, number, type) => {
             return pizza[property] < number;
         }
     });
-
     return filteredArray;
 }
-
 
 
 /*
